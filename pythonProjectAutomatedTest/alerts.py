@@ -18,4 +18,4 @@ driver.find_element(By.ID, 'alertbtn').click()
 alert = driver.switch_to.alert
 alertText = alert.text
 print(alertText)
-alert.accept()
+alert.accept() 
