@@ -1,0 +1,5 @@
+2022-08-18 16:37:07,750:DEBUG:root:Debug message
+2022-08-18 16:37:07,750:INFO:root:Info message
+2022-08-18 16:37:07,750:WARNING:root:Warning message
+2022-08-18 16:37:07,750:ERROR:root:Error message
+2022-08-18 16:37:07,750:CRITICAL:root:Critical message
