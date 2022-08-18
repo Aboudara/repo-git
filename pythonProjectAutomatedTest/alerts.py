@@ -1,12 +1,11 @@
 import time
 
 from selenium import webdriver
+import path
 #Chrome driver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-service_obj = Service("C:/Program Files (x86)/chromedriver.exe")
-driver = webdriver.Chrome(service=service_obj)
+driver = webdriver.Chrome(service=path.service_obj)
 
 name = "Rahul"
 driver.get(" https://rahulshettyacademy.com/AutomationPractice/")

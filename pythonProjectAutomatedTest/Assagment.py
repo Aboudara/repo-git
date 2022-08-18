@@ -1,16 +1,15 @@
 import time
-
+import path
 from selenium import webdriver
-#Chrome driver
-from selenium.webdriver.chrome.service import Service
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 expectedList = ['Cucumber - 1 Kg', 'Raspberry - 1/4 Kg', 'Strawberry - 1/4 Kg']
 actualList = []
 
-service_obj = Service("C:/Program Files (x86)/chromedriver.exe")
-driver = webdriver.Chrome(service=service_obj)
+
+driver = webdriver.Chrome(service=path.service_obj)
 driver.implicitly_wait(2)
 
 name = "Rahul"
