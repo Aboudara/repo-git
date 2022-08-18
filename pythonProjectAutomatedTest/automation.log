@@ -1,4 +1,4 @@
-2022-08-18 17:06:52,776 - WARNING - <module> : test
-2022-08-18 17:09:42,552 - ERROR - <module> : test
-2022-08-18 17:10:44,939 - ERROR - <module> : test
-2022-08-18 17:15:09,615 - INFO - <module> : test passe
+2022-08-18 21:57:45,434 - ERROR - <module> : test NOK
+2022-08-18 21:57:51,743 - INFO - <module> : Test OK
+2022-08-18 21:58:44,406 - INFO - <module> : test OK
+2022-08-18 21:58:50,988 - INFO - <module> : Test OK

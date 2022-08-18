@@ -1,7 +1,6 @@
 import inspect
 import logging
 
-
 def custum_Logger(self, logLevel=logging.DEBUG):
     #
     logger_name = inspect.stack()[1][3]
@@ -18,6 +17,5 @@ def custum_Logger(self, logLevel=logging.DEBUG):
     logger.addHandler(fh)
     return logger
 
+
 log = custum_Logger(Warning)
-
-
