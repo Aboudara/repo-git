@@ -6,7 +6,11 @@ from openpyxl import Workbook
 import math
 
 document = openpyxl.load_workbook("Analysis_EBSS_Test.xlsx")
+#document = openpyxl.load_workbook("novembre.xlsx")
+
 wb = Workbook()
+print(wb.sheetnames)
+
 sheet = document.active
 max_col = sheet.max_column
 max_line = sheet.max_row
